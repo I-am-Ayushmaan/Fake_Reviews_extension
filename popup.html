@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review Analysis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      height: 10%;
+      width: 20%;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #13f43c;
+      border-radius: 10%;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    /* Add this CSS to create a lighting effect on button click */
+    button:active {
+      background-color: #0ca726; /* Lighter color when button is clicked */
+    }
+  </style>
+</head>
+<body>
+  <h2>Review Analysis</h2>
+  <button id="scrapeBtn">Scrape Reviews</button>
+  <div id="reviews"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
